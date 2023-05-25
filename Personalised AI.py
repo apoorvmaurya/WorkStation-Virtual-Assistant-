@@ -74,6 +74,11 @@ if __name__ == "__main__":
             print(results)
             speak(results)
 
+        elif 'my profile' in query:
+            speak("Openning your profile Sir!")
+            webbrowser.open("linktr.ee/ap00rv")
+            
+            
         elif 'open youtube' in query:
             speak("Openning Youtube for you Sir!")
             webbrowser.open("youtube.com")
