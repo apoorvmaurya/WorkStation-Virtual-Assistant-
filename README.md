@@ -1,13 +1,15 @@
 # Virtual Assistant
 This is a simple virtual assistant that can be used to perform a variety of tasks, such as: <br>
 - Opening websites
+- Wikipedia Things
 - Searching the web
 - Telling jokes
 - Getting the date and time
 - Opening applications
 
-To use the virtual assistant, simply type in your request and press Enter. The virtual assistant will then try to fulfill your request.<br>
-For example, you could type in:
+To use the virtual assistant, simply say your request, the virtual assistant will then try to fulfill your request.<br>
+For example, you could say:
+- "Wikipedia Theory of Relativity"
 - "Open Google"
 - "Search for 'cats'"
 - "Tell me a joke"
@@ -34,10 +36,11 @@ _*The virtual assistant is still under development, but it is already capable of
 - Run the virtual assistant by typing python main.py in the terminal.<br>
 
 ## *Usage*
-To use the virtual assistant, simply type in your request and press Enter. The virtual assistant will then try to fulfill your request.
-*For example, you could type in:*
+To use the virtual assistant, simply say your request, the virtual assistant will then try to fulfill your request.
+*For example, you could say:*
+- "Wikipedia Quantum Physics"
 - "Open Google"
-- "Search for 'cats'"
+- "Search on google 'cats'"
 - "Tell me a joke"
 - "What is the date today?"
 - "Open Spotify"
