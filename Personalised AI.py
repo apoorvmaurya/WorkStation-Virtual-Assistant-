@@ -69,10 +69,18 @@ if __name__ == "__main__":
         if 'wikipedia' in query:
             speak('Searching Wikipedia...')
             query = query.replace("wikipedia", "")
-            results = wikipedia.summary(query, sentences=2)
-            speak("According to Wikipedia")
-            print(results)
-            speak(results)
+            try:
+                results = wikipedia.summary(query, sentences=2)
+                speak("According to Wikipedia")
+                print(results)
+                speak(results)
+            except wikipedia.exceptions.PageError:
+                speak("Sorry! I couldn't find a Wikipedia page for that.")
+                query = takeCommand().lower()
+                if query != 'none':
+                    continue
+                else:
+                    speak("Invalid search query. Please try again.")
 
         elif 'my profile' in query:
             speak("Openning your profile Sir!")
