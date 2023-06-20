@@ -73,4 +73,3 @@ If you encounter any issues while using the virtual assistant, please consider t
 _*If you would like to contribute to the development of the virtual assistant, please fork the repository and submit a pull request. Let's make the virtual assistant even better together!*_ 🌟🎉
 
 ![Virtual Assistant](https://iili.io/Hrt2Ggn.gif)
-
