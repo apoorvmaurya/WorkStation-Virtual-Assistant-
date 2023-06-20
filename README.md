@@ -74,4 +74,3 @@ _*If you would like to contribute to the development of the virtual assistant, p
 
 ![Virtual Assistant](https://iili.io/Hrt2Ggn.gif)
 
-Feel free to add any necessary emojis, stickers, or GIFs to the README file to make it more engaging and visually appealing.
