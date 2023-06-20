@@ -1,0 +1,5 @@
+pyttsx3
+speechrecognition
+requests
+datetime
+wikipedia
